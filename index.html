@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="todo_section">
+            <h2>To-do List</h2>
+            <div class="form_input">
+                <input type="text" name="todo" id="todoInput" placeholder="Add new todo" class="todo_input">
+                <button class="add_btn">Add</button>
+            </div>
+            <ul class="scroll">
+                <li id="todoList" class="todoList"></li>
+            </ul>
+
+            <div>
+                <hr>
+                <div class="counter_container">
+                    <p><span id="todo_count">0</span> items total</p>
+                    <button class="delete_btn">Delete All</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="made_by">Made by</p>
+        <p class="author">Kaylayshi</p>
+    </footer>
+</body>
+</html>
